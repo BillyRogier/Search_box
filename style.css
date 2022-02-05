@@ -13,13 +13,13 @@ body{
     background-color: #130f40;
 }
 
-.search-box{
+.search_box{
     width: fit-content;
     height: fit-content;
     position: relative;
 }
 
-.input-search{
+.input_search{
     height: 70px;
     width: 70px;
     border-style: none;
@@ -33,13 +33,13 @@ body{
     color:#fff;
 }
 
-.input-search::placeholder{
+.input_search::placeholder{
     color:rgba(255,255,255,.5);
     font: normal 100 18px/2px;
     margin-left: 50px;
 }
 
-.btn-search{
+.btn_search{
     width: 70px;
     height: 70px;
     border-style: none;
@@ -53,14 +53,14 @@ body{
     background-color:transparent;
 }
 
-.btn-search:focus ~ .input-search{
+.btn_search:focus ~ .input_search{
     width: 350px;
     border-radius: 70px;
     border: 2px solid white;
     transition: all .5s;
 }
 
-.input-search:focus{
+.input_search:focus{
     width: 350px;
     border: 2px solid white;
     border-radius: 70px;
